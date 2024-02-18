@@ -1,0 +1,14 @@
+import random
+
+wordList = ['pizza', 'sauce', 'chicken', 'outdoors', 'run', 'store', 'orangutan', 'elephant', 'ohio', 'bazinga', 'random', 'boobs', 'nuggets', 'gold', 'plants', 'fall' ]
+
+word = random.choice(wordList)
+
+intro = input("Welcome to Hangman! Would you like to play a game?\n")
+
+if intro == "y":
+  print(input("Guess the word. You have 6 tries \n"))
+  print(len(word))
+else:
+  exit ()
+  
